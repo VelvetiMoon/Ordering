@@ -1,0 +1,38 @@
+/* ✅ Full-Width Centered Flexbox Navbar */
+.navbar {
+    display: flex;
+    justify-content: center; /* ✅ Centers all links */
+    align-items: center;
+    width: 100%; /* ✅ Ensures full-screen width */
+    padding: 20px;
+    background-color: black;
+  }
+  
+  /* ✅ Ensures the logo stays on the left */
+  .logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 20px; /* ✅ Keeps logo fixed on the left */
+  }
+  
+  /* ✅ Centers the links in the navbar */
+  .nav-links {
+    display: flex;
+    justify-content: center; /* ✅ Centers "Home" & "About" */
+    gap: 50px; /* ✅ Keeps spacing even */
+  }
+  
+  /* ✅ Properly styled links */
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: yellow;
+  }
+  

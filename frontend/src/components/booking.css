@@ -1,0 +1,124 @@
+/* Make the booking page full-screen with black background */
+.booking-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 100vh; /* Full height of the screen */
+    width: 100vw; /* Full width of the screen */
+    padding: 20px;
+  }
+  
+  /* Main Booking Box - Enlarged */
+  .booking-box {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 60%; /* Made Wider */
+    max-width: 1100px;
+  }
+  
+  /* Title */
+  .booking-title {
+    color: #ffc107;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  /* Grid Layout */
+  .booking-grid {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  /* Left Side (Drinks List) */
+  .booking-left {
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 2;
+  }
+  
+  /* Drinks Title */
+  .drink-title {
+    color: #ffc107;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  /* Columns for Drinks */
+  .drink-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  
+  /* Right Side (Pax & Price) */
+  .booking-right {
+    background-color: #2d2d2d;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%; /* Smaller size */
+  }
+  
+  /* Pax Title */
+  .pax-title, .price-title {
+    color: #ffc107;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Dropdown */
+  .pax-dropdown {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+  }
+  
+  /* Price */
+  .price-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  /* Confirm Button */
+  .confirm-button {
+    background-color: #ffc107;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    width: 100%;
+  }
+  
+  .confirm-button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Note Text */
+  .note-text {
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+  }
+  
